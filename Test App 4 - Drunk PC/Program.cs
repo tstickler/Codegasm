@@ -23,7 +23,7 @@ namespace DrunkPC
     {
         public static Random _random = new Random();
 
-        public static int _startupDelaySeconds = 10;
+        public static int _startupDelaySeconds = 5;
         public static int _totalDurationSeconds = 10;
 
         /// <summary>
@@ -101,7 +101,7 @@ namespace DrunkPC
                         Cursor.Position.X + moveX,
                         Cursor.Position.Y + moveY);
                 }
-
+                
                 Thread.Sleep(50);
             }
         }
@@ -115,17 +115,16 @@ namespace DrunkPC
 
             while (true)
             {
-                if (_random.Next(100) > 95)
+                if (_random.Next(100) > 20)
                 {
                     // Generate a random capitol letter
-                    char key = (char)(_random.Next(25) + 65);
+                    char key = (char)(_random.Next(65, 91));
 
                     // 50/50 make it lower case
                     if (_random.Next(2) == 0)
                     {
                         key = Char.ToLower(key);
                     }
-
                     SendKeys.SendWait(key.ToString());
                 }
 
