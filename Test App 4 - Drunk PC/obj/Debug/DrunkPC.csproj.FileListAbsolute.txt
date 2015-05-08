@@ -1,0 +1,6 @@
+C:\Users\Ty\Documents\GitHub\Codegasm\Test App 4 - Drunk PC\bin\Debug\DrunkPC.exe.config
+C:\Users\Ty\Documents\GitHub\Codegasm\Test App 4 - Drunk PC\bin\Debug\DrunkPC.exe
+C:\Users\Ty\Documents\GitHub\Codegasm\Test App 4 - Drunk PC\bin\Debug\DrunkPC.pdb
+C:\Users\Ty\Documents\GitHub\Codegasm\Test App 4 - Drunk PC\obj\Debug\DrunkPC.csprojResolveAssemblyReference.cache
+C:\Users\Ty\Documents\GitHub\Codegasm\Test App 4 - Drunk PC\obj\Debug\DrunkPC.exe
+C:\Users\Ty\Documents\GitHub\Codegasm\Test App 4 - Drunk PC\obj\Debug\DrunkPC.pdb
